@@ -114,3 +114,8 @@ void DoubleLinkedList::traverse() {
 		}
 	}
 }
+
+void DoubleLinkedList::revtraverse() {
+	if (listEmpty()) {
+		cout << "\nList is empty" << endl;
+	}
